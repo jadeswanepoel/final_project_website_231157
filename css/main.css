@@ -1,8 +1,15 @@
 html,body{
-    width: 100%;
+    width: 99%;
     background-color: black;
 }
 
+h2{
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+}
 nav{
     width: 100%;
     height: 20px;
@@ -10,9 +17,14 @@ nav{
     padding-left: 30px;
 }
 
+.overlay-nav{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
 
 header{
-    width: 100%;
+    width: 102%;
     height: 600px;
     padding-top: 100px;
     padding-left: 10%;
@@ -20,11 +32,12 @@ header{
     padding-top: 10%;
     background-color: gray;
     text-align: left;
-    color: black;
-    background-image: url(../assets/logic_no_pressure_home_cover_image.png);
+    color: white;
+    background-image: url(../assets/header\ new\ arctic\ monkeys.jpg.crdownload);
     background-position: center;
     background-size: cover;
     margin-top: -20px;
+
 }
 
 .container-fluid{
@@ -33,8 +46,8 @@ header{
 
 footer{
     height: 100px;
-    width: 100%;
-    background-color: gray;
+    width: 102%;
+    background-color: turquoise;
 }
 
 .logo{
@@ -42,6 +55,7 @@ footer{
     margin-left: 50px;
     margin-left: 30px;
     margin-top: 25px;
+    color: white;
 }
 
 .col-6{
@@ -52,18 +66,20 @@ footer{
     height: 300px;
     background-color: black;
     margin-left: 100px;
+
 }
 
 
 .col-box1{
     width: 700px;
     height: 400px;
-    background-color: lightgray;
+    background-color: #2b2b2b;
     float: right;
     text-align: left;
+    color: white;
     padding-left: 150px;
     padding-right: 150px;
-    margin-left: -200px;
+    margin-left: -400px;
     padding-top: 15px;
     margin-right: 80px;
 }
@@ -74,96 +90,588 @@ footer{
 .col-box2a{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/man_on_the_moon_album_cover.png);
+    background-image: url(../assets/one\ republic\ human.webp);
     background-position: center;
     background-size: cover;
 } 
+.overlay2a{
+    height: 277px;
+    width: 277px;
+    padding-top: 92px;
+    opacity: 0;
+    margin-top: 70px;
+}
+
+.overlay2a:hover{
+    opacity: 1;
+}
+.icon2a{
+    width: 70px;
+    height: 70px;
+    background-color:  rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+.content2a{
+    width: 277px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 45px;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 9px;
+    padding-left: 25px;
+    float: left;
+}
+
+.content h3,p{
+    margin: 0;
+}
+
+.button-heartsmal2a{
+    padding-left: 200px;
+    margin-top: -50px;
+}
+
+.button-play{
+    background-color:  turquoise;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+
+
 .col-box2b{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/blame_it_on_baby_album_cover.png);
+    background-image: url(../assets/Blurryface_by_Twenty_One_Pilots.png);
     background-position: center;
     background-size: cover;
 }
+.overlay2b{
+    height: 277px;
+    width: 277px;
+    padding-top: 92px;
+    opacity: 0;
+    margin-top: 70px;
+}
+
+.overlay2b:hover{
+    opacity: 1;
+}
+.icon2b{
+    width: 70px;
+    height: 70px;
+    background-color:  rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    margin-left: 100px;
+}
+.button-heartsmal2b{
+    padding-left: 200px;
+    margin-top: -50px;
+}
+
+.button-play2b{
+    background-color:  turquoise;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.content2b{
+    width: 277px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 45px;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 9px;
+    padding-left: 25px;
+    float: left;
+}
+
 .col-box2c{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/happy_thoughts_album_cover.png);
+    background-image: url(../assets/RedHotChiliPeppersCalifornication.jpg);
     background-position: center;
     background-size: cover;
+}
+.overlay2c{
+    height: 277px;
+    width: 277px;
+    padding-top: 92px;
+    opacity: 0;
+    margin-top: 70px;
+}
+
+.overlay2c:hover{
+    opacity: 1;
+}
+.icon2c{
+    width: 70px;
+    height: 70px;
+    background-color:  rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    margin-left: 100px;
+}
+.button-heartsmal2c{
+    padding-left: 200px;
+    margin-top: -50px;
+}
+
+.button-play2c{
+    background-color:  turquoise;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.content2c{
+    width: 277px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 45px;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 9px;
+    padding-left: 25px;
+    float: left;
 }
 .col-box2d{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/music_to_be_murdered_by_album_cover.png);
+    background-image: url(../assets/Iloveyou_the_neighbourhood.jpeg);
     background-position: center;
     background-size: cover;
+}
+.overlay2d{
+    height: 277px;
+    width: 277px;
+    padding-top: 92px;
+    opacity: 0;
+    margin-top: 70px;
+}
+
+.overlay2d:hover{
+    opacity: 1;
+}
+.icon2d{
+    width: 70px;
+    height: 70px;
+    background-color:  rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    margin-left: 100px;
+}
+.button-heartsmal2d{
+    padding-left: 200px;
+    margin-top: -50px;
+}
+
+.button-play2d{
+    background-color:  turquoise;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.content2d{
+    width: 277px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 45px;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 9px;
+    padding-left: 25px;
+    float: left;
 }
  
 .col-box2e{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/low_end_theory_album_cover.png);
+    background-image: url(../assets/mercury\ imagine\ dragons.jpg);
     background-position: center;
     background-size: cover;
+}
+.overlay2e{
+    height: 277px;
+    width: 277px;
+    padding-top: 92px;
+    opacity: 0;
+    margin-top: 70px;
+}
+
+.overlay2e:hover{
+    opacity: 1;
+}
+.icon2e{
+    width: 70px;
+    height: 70px;
+    background-color:  rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    margin-left: 100px;
+}
+.button-heartsmal2e{
+    padding-left: 200px;
+    margin-top: -50px;
+}
+
+.button-play2e{
+    background-color:  turquoise;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.content2e{
+    width: 277px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 45px;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 9px;
+    padding-left: 25px;
+    float: left;
 }
 .col-box2f{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/wu_tang_album_cover.png);
+    background-image: url(../assets/attachment-linkin_park_meteora_album_art_inset.jpg);
     background-position: center;
     background-size: cover;
+}
+.overlay2f{
+    height: 277px;
+    width: 277px;
+    padding-top: 92px;
+    opacity: 0;
+    margin-top: 70px;
+}
+
+.overlay2f:hover{
+    opacity: 1;
+}
+.icon2f{
+    width: 70px;
+    height: 70px;
+    background-color:  rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    margin-left: 100px;
+}
+.button-heartsmal2f{
+    padding-left: 200px;
+    margin-top: -50px;
+}
+
+.button-play2f{
+    background-color:  turquoise;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.content2f{
+    width: 277px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 45px;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 9px;
+    padding-left: 25px;
+    float: left;
 }
 .col-box2g{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/to_pimp_a_butterfly_album_cover.png);
+    background-image: url(../assets/In_a_Tidal_Wave_of_Mystery_by_Capital_Cities_artwork.jpg);
     background-position: center;
     background-size: cover;
+}
+.overlay2g{
+    height: 277px;
+    width: 277px;
+    padding-top: 92px;
+    opacity: 0;
+    margin-top: 70px;
+}
+
+.overlay2g:hover{
+    opacity: 1;
+}
+.icon2g{
+    width: 70px;
+    height: 70px;
+    background-color:  rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    margin-left: 100px;
+}
+.button-heartsmal2g{
+    padding-left: 200px;
+    margin-top: -50px;
+}
+
+.button-play2g{
+    background-color:  turquoise;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.content2g{
+    width: 277px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 45px;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 9px;
+    padding-left: 25px;
+    float: left;
 }
 .col-box2h{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/revenge_album_cover.png);
+    background-image: url(../assets/Coldplay_-_A_Rush_of_Blood_to_the_Head_Cover.png);
     background-position: center;
     background-size: cover;
+}
+.overlay2h{
+    height: 277px;
+    width: 277px;
+    padding-top: 92px;
+    opacity: 0;
+    margin-top: 70px;
+}
+
+.overlay2h:hover{
+    opacity: 1;
+}
+.icon2h{
+    width: 70px;
+    height: 70px;
+    background-color:  rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    margin-left: 100px;
+}
+.button-heartsmal2h{
+    padding-left: 200px;
+    margin-top: -50px;
+}
+
+.button-play2h{
+    background-color:  turquoise;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.content2h{
+    width: 277px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 45px;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 9px;
+    padding-left: 25px;
+    float: left;
 }
 
 .col-box2i{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/kod_album_cover.png);
+    background-image: url(../assets/The_Weeknd_-_After_Hours.png);
     background-position: center;
     background-size: cover;
 }
+.overlay2i{
+    height: 277px;
+    width: 277px;
+    padding-top: 92px;
+    opacity: 0;
+    margin-top: 70px;
+}
+
+.overlay2i:hover{
+    opacity: 1;
+}
+.icon2i{
+    width: 70px;
+    height: 70px;
+    background-color:  rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    margin-left: 100px;
+}
+.button-heartsmal2i{
+    padding-left: 200px;
+    margin-top: -50px;
+}
+
+.button-play2i{
+    background-color:  turquoise;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.content2i{
+    width: 277px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 45px;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 9px;
+    padding-left: 25px;
+    float: left;
+}
+
 .col-box2j{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/no_pressure_album_cover.png);
+    background-image: url(../assets/tickets\ to\ my\ downfall\ mgk.jpg);
     background-position: center;
     background-size: cover;
 }
+.overlay2j{
+    height: 277px;
+    width: 277px;
+    padding-top: 92px;
+    opacity: 0;
+    margin-top: 70px;
+}
+
+.overlay2j:hover{
+    opacity: 1;
+}
+.icon2j{
+    width: 70px;
+    height: 70px;
+    background-color:  rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    margin-left: 100px;
+}
+.button-heartsmal2j{
+    padding-left: 200px;
+    margin-top: -50px;
+}
+
+.button-play2j{
+    background-color:  turquoise;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.content2j{
+    width: 277px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 45px;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 9px;
+    padding-left: 25px;
+    float: left;
+}
+
 .col-box2k{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/circles_album_cover.png);
+    background-image: url(../assets/the\ script\ deluxe.jpg);
     background-position: center;
     background-size: cover;
 }
+.overlay2k{
+    height: 277px;
+    width: 277px;
+    padding-top: 92px;
+    opacity: 0;
+    margin-top: 70px;
+}
+
+.overlay2k:hover{
+    opacity: 1;
+}
+.icon2k{
+    width: 70px;
+    height: 70px;
+    background-color:  rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    margin-left: 100px;
+}
+.button-heartsmal2k{
+    padding-left: 200px;
+    margin-top: -50px;
+}
+
+.button-play2k{
+    background-color:  turquoise;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.content2k{
+    width: 277px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 45px;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 9px;
+    padding-left: 25px;
+    float: left;
+}
+
 .col-box2l{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/kanye_album_cover.png);
+    background-image: url(../assets/0b317c-20130929-arctic-monkeys-am-album-cover-art.jpg);
     background-position: center;
     background-size: cover;
 }
+.overlay2l{
+    height: 277px;
+    width: 277px;
+    padding-top: 92px;
+    opacity: 0;
+    margin-top: 70px;
+}
+
+.overlay2l:hover{
+    opacity: 1;
+}
+.icon2l{
+    width: 70px;
+    height: 70px;
+    background-color:  rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    margin-left: 100px;
+}
+.button-heartsmal2l{
+    padding-left: 200px;
+    margin-top: -50px;
+}
+
+.button-play2l{
+    background-color:  turquoise;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.content2l{
+    width: 277px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 45px;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 9px;
+    padding-left: 25px;
+    float: left;
+}
+
 
 .col-3{
    padding-left: 100px;
    padding-right: 150px;
    margin-left: -10px;
    width: 350px;
-
 }
 
 
@@ -189,6 +697,7 @@ footer{
     text-align: center;
     margin-right: 10px;
     padding-left: 40px;
+    color: white;
 }
 
 
@@ -209,17 +718,19 @@ footer{
     color: white;
 }
 
+
 .button-inverted1{
    width: 225px;
    height: 70px;
    text-align: center;
-   background-color: black;
+   background-color: turquoise;
    color: white;
    border-radius: 40px;
-   padding-top: 12px;
+   padding-top: 20px;
 }
 .button-inverted1:hover{
     border: 2px solid white;
+    background-color: black;
 }
 
 .button-normal1{
@@ -227,10 +738,10 @@ footer{
     height: 70px;
     text-align: center;
     background-color: transparent;
-    color: black;
+    color: white;
     border-radius: 40px;
-    padding-top: 12px;
-    border: 2px solid black;
+    padding-top: 20px;
+    border: 2px solid turquoise;
 }
 
 .button-normal1:hover{
@@ -242,9 +753,8 @@ footer{
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background-color: transparent;
-    border: 2px solid black;
-    color: black;
+    border: 2px solid turquoise;
+    color: white;
     text-align: center;
 }
 
@@ -272,27 +782,42 @@ footer{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: 2px solid black;
+    border: 2px solid ;
     background-color: transparent;
     text-align: center;
     float: right;
-    margin-top: 5px;
+    margin-top: -30px;
+    margin-left: 20px;
+    color: turquoise;
 }
 
 .button-normal:hover{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 li{
     color: black;
 }
 
+
+.button-socials{
+    float: right;
+    margin-right: 80px;
+    margin-top: -50px;
+    color: white;
+}
+
+
 .button-normal3{
     float: right;
-    padding-right: 40px;
-    margin-right: 50px;
-    margin-left: 10px;
     padding-top: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.button-normal3:hover{
+    background-color: white;
+    color: black;
+    padding-top: 5px;
 }
 .button-normal4{
     float: right;

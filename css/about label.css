@@ -2,6 +2,12 @@ html,body{
     background-color: black;
 }
 
+h3{
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+}
 nav{
     width: 100%;
     height: 80px;
@@ -126,10 +132,6 @@ h3{
 }
 
 .button-normal{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 2px solid white;
     float: left;
     margin-left: 10px;
     margin-top: 30px;
@@ -139,14 +141,11 @@ h3{
 }
 
 .button-normal1{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 2px solid white;
     float: right;
-    margin-right: 200px;
+    margin-right: 100px;
     margin-top: 30px;
 }
+    
 .button-normal1:hover{
     background-color: white;
 }
@@ -157,4 +156,50 @@ li{
 
 .col-6{
     margin-top: 50px;
+}
+
+.button-socials{
+    float: right;
+    margin-right: 80px;
+    margin-top: -40px;
+    color: white;
+}
+
+
+.button-normal3{
+    float: right;
+    padding-top: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.button-normal3:hover{
+    background-color: white;
+    color: black;
+    padding-top: 5px;
+}
+.button-normal4{
+    float: right;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+
+.button-normal5{
+    float: right;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+
+.button-normal6{
+    float: right;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+footer{
+    height: 125px;
+    width: 100%;
+    margin-top: 100px;
+    background-color: turquoise;
 }
