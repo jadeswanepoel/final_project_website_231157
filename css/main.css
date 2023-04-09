@@ -705,9 +705,10 @@ footer{
     width: 255px;
     height: 40px;
     text-align: left;
-
+    padding-top: 5px;
+    padding-bottom: 5px;
     border: 2px solid turquoise;
-    border-radius: 25px;
+    border-radius: 20px;
     background-color: #2b2b2b;
     float: right;
     margin-top: -20px;
@@ -716,11 +717,6 @@ footer{
     padding-left: 10px;
     color: white;
 }
-.button1:hover{
-    background-color: turquoise;
-    border: 2px solid white;
-}
-
 
 .button-inverted1{
    width: 225px;
