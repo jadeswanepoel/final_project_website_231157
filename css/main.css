@@ -705,17 +705,20 @@ footer{
     width: 255px;
     height: 40px;
     text-align: left;
-    margin-top: 35px;
-    border: 2px solid white;
+
+    border: 2px solid turquoise;
     border-radius: 25px;
-    background-color: black;
+    background-color: #2b2b2b;
     float: right;
-    margin-top: -30px;
+    margin-top: -20px;
     margin-left: 280px;
     margin-right: -80px;
     padding-left: 10px;
-    padding-top: 5px;
     color: white;
+}
+.button1:hover{
+    background-color: turquoise;
+    border: 2px solid white;
 }
 
 
@@ -753,7 +756,7 @@ footer{
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    border: 2px solid turquoise;
+    border: 2px solid transparent;
     color: white;
     text-align: center;
 }
@@ -788,11 +791,11 @@ footer{
     float: right;
     margin-top: -30px;
     margin-left: 20px;
-    color: turquoise;
+    color: transparent;
 }
 
 .button-normal:hover{
-    background-color: white;
+    background-color: black;
     color: black;
 }
 li{
@@ -813,12 +816,10 @@ li{
     padding-top: 10px;
     margin-left: 10px;
     border-radius: 50%;
+    background-position: center;
+    background-size: cover;
 }
-.button-normal3:hover{
-    background-color: white;
-    color: black;
-    padding-top: 5px;
-}
+
 .button-normal4{
     float: right;
     margin-left: 10px;
