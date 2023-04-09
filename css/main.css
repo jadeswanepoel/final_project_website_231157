@@ -47,7 +47,7 @@ header{
 footer{
     height: 100px;
     width: 102%;
-    background-color: turquoise;
+    background-color: black;
 }
 
 .logo{
@@ -268,7 +268,7 @@ footer{
 }
 
 .button-play2d{
-    background-color:  turquoise;
+    background-color:  ;
     border-radius: 50%;
     opacity: 1;
 }
@@ -457,7 +457,7 @@ footer{
 }
 
 .button-play2h{
-    background-color:  turquoise;
+    background-color: turquoise;
     border-radius: 50%;
     opacity: 1;
 }
@@ -601,7 +601,7 @@ footer{
 }
 
 .button-play2k{
-    background-color:  turquoise;
+    background-color: turquoise;
     border-radius: 50%;
     opacity: 1;
 }
@@ -813,31 +813,38 @@ li{
 
 .button-normal3{
     float: right;
-    padding-top: 10px;
+    padding-top: 0px;
     margin-left: 10px;
     border-radius: 50%;
     background-position: center;
     background-size: cover;
+    background-color: turquoise;
 }
 
 .button-normal4{
     float: right;
     margin-left: 10px;
-    padding-top: 10px;
+    padding-top: 0px;
+    background-color: turquoise;
+    border-radius: 50%;
 }
 
 
 .button-normal5{
     float: right;
     margin-left: 10px;
-    padding-top: 10px;
+    padding-top: 0px;
+    border-radius: 50%;
+    background-color: turquoise;
 }
 
 
 .button-normal6{
     float: right;
     margin-left: 10px;
-    padding-top: 10px;
+    padding-top: 0px;
+    border-radius: 50%;
+    background-color: turquoise;
 }
 
 .text2{
